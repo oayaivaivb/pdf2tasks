@@ -1,0 +1,20 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# # Входные и сгенерированные файлы (pdf, результаты парсинга)
+# input.pdf
+# out/
+# *.pdf
+
+# Настройки IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+*.swp
