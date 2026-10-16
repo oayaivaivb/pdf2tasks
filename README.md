@@ -114,18 +114,3 @@ python parse_questions.py out/raw.md -o out --ocr
 * `questions.xlsx` — итоговая таблица со столбцами: *Часть*, *Номер вопроса*, *Вопрос*, *Рисунок*.
 
 ```
-
----
-
-### Как зафиксировать изменения в Git:
-```bash
-# 1. Записать в README.md
-cat << 'EOF' > README.md
-# (вставь содержимое сюда или сохрани через редактор)
-EOF
-
-# 2. Добавить и запушить
-git add README.md
-git commit -m "docs: update README to focus on Tesseract OCR"
-git push
-
